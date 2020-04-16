@@ -31,5 +31,3 @@ hist(mydataSelect$Global_active_power,
      ylab = "Frecuency",
      xlab = "Global active power (Kilowatts)")
 dev.off()
-
-plot(mydataSelect$Date, mydataSelect$Global_active_power, type = "l")
